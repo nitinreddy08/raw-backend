@@ -19,3 +19,6 @@ logs/
 # OS files
 .DS_Store
 Thumbs.db 
+
+# Do NOT ignore deployment files
+# (runtime.txt and Procfile are tracked by git) 
