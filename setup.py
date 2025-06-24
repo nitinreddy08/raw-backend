@@ -1,0 +1,18 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="rawchat-backend",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "Flask==2.3.3",
+        "Flask-SocketIO==5.3.4",
+        "python-socketio==5.7.2",
+        "python-engineio==4.6.0",
+        "eventlet==0.35.2",
+        "python-dotenv==1.0.0",
+        "Flask-Cors==4.0.0",
+        "Flask-Limiter==3.5.0",
+    ],
+    python_requires=">=3.11.8,<3.12.0",
+)
